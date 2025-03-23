@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { BsThreeDots } from "react-icons/bs";
-import logo from "../public/logo .png"
 import hero from "../public/herosection.png"
 
 export default function HeroSection() {
