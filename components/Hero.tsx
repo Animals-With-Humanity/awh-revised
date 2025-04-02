@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { BsThreeDots } from "react-icons/bs";
-import logo from "../public/logo .png"
 import hero from "../public/herosection.png"
 
 export default function HeroSection() {
@@ -9,12 +7,12 @@ export default function HeroSection() {
             <div className=" flex flex-col md:flex-row items-center lg:px-8 lg:pt-12">
                 <div className="md:w-1/2 mb-8 md:mb-8 lg:ml-50 md:ml-30">
                     <h1 className="lg:text-[58px] md:text-[46px] text-[38px] font-extrabold text-black leading-tight lg:mb-5 md:mb-4 mb-2 whitespace-nowrap">
-                       It's time we be <br/>KIND to all <br/> KINDS.
+                       It&apos;s time we be <br/>KIND to all <br/> KINDS.
                     </h1>
                     <p className="lg:text-xl md:text-[16px] font-extrabold lg:mb-8 md:mb-6 text-black mb-6">
                         The world belongs to all,
                         <br />
-                        and it's time we learn to co-exist!
+                        and it&apos;s time we learn to co-exist!
                     </p>
                     <button className="bg-[#ffffff] text-white lg:text-lg md:text-[16px] font-semibold lg:py-4 md:py-2.5 py-1.5 lg:px-18 md:px-10 px-6 rounded-lg shadow-md hover:bg-blue-700 transition" >
                         <span className="text-[#03d2ff] lg:text-xl md:text-xl text-sm">How can you help?</span>
