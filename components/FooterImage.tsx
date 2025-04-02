@@ -1,14 +1,14 @@
 import React from 'react'
-import imagebg from "../public/footer bg .png"
+import imagebg from "../public/footerbg.png"
 import Image from 'next/image'
 
 const FooterImage = () => {
   return (
-    <div className='flex flex-1 py-10'>
+    <div className='flex flex-1 lg:py-10 md:py-8 py-4'>
         <Image
             src={imagebg}
             alt='imagebg'
-            className='rounded-br-[13rem]'
+            className='lg:rounded-br-[13rem] rounded-br-[6rem] lg:h-auto md:h-auto h-[36vh] object-cover'
         />
     </div>
   )

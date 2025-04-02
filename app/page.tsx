@@ -8,9 +8,9 @@ import Providers from "@/components/Providers";
 
 export default function Home() {
   return (
-    <div className="flex-col flex">
+    <div className="flex-col flex min-h-screen">
       <Header/>
-      <div>
+      <div className="flex-1">
       <HeroSection/>
       <Initiative/>
       <Features/>

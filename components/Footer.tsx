@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp , FaEnvelope } from "re
 export default function Footer() {
     return (
         <footer className="bg-white text-black py-6">
-            <div className="container mx-auto flex flex-col items-center justify-center px-6">
+            <div className="container mx-auto flex flex-col items-center justify-center px-6 lg:pb-0 md:pb-[20%] pb-[65%]">
                 <div className="flex space-x-6 mt-4 md:mt-0">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-600 text-4xl">
                         <FaFacebookF />
